@@ -1,0 +1,11 @@
+src/
+docs/
+examples/
+tests/
+.git/
+.gitignore
+.env
+tsconfig.json
+jest.config.js
+CONTRIBUTING.md
+SETUP.md
