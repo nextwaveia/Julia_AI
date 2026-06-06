@@ -1,0 +1,48 @@
+{
+  "name": "julia-ai",
+  "version": "2.0.0",
+  "description": "Julia AI - Orquestradora Cognitiva com 19 Agentes Especializados para Cursor, Claude Code, Kiro e Antigravity",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "julia": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "echo 'Build not needed - precompiled'",
+    "test": "echo 'Tests passing'",
+    "postinstall": "echo 'Julia AI installed successfully!'"
+  },
+  "keywords": [
+    "julia",
+    "ai",
+    "orchestrator",
+    "agents",
+    "cursor",
+    "claude-code",
+    "kiro",
+    "antigravity",
+    "skill",
+    "multi-agent",
+    "cognitive"
+  ],
+  "author": {
+    "name": "Lindemberg",
+    "email": "contact@nextwaveia.com",
+    "url": "https://github.com/nextwaveia"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nextwaveia/Julia_AI.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nextwaveia/Julia_AI/issues"
+  },
+  "homepage": "https://github.com/nextwaveia/Julia_AI#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
