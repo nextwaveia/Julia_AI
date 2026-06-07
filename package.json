@@ -1,6 +1,6 @@
 {
   "name": "julia-ai",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "Julia AI - Orquestradora Cognitiva com 19 Agentes Especializados para Cursor, Claude Code, Kiro e Antigravity",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
