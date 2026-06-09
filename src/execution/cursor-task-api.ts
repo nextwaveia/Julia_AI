@@ -49,7 +49,7 @@ export class CursorTaskAPIClient {
       timestamp: Date.now(),
     };
 
-    const response = await this.makeRequest(`/tasks`, 'POST', payload);
+    const response = await this.makeRequest(`/tasks`, 'POST', payload) as unknown;
     const data = response as CursorTask;
     return { ...data, id: `task-${Date.now()}`, status: 'pending', createdAt: Date.now(), updatedAt: Date.now() };
   }
@@ -81,7 +81,7 @@ export class CursorTaskAPIClient {
     await this.makeRequest(`/tasks/${taskId}/cancel`, 'POST', {});
   }
 
-  private async makeRequest(endpoint: string, method: string = 'GET', body?: unknown): Promise<unknown> {
+  private async makeRequest(endpoint: string, _method?: string, body?: unknown): Promise<unknown> {
     // Simulated API call for testing
     return {
       success: true,

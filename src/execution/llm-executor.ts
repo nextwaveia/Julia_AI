@@ -122,8 +122,8 @@ export class LLMExecutor {
     let best = models[0];
 
     for (const model of models) {
-      if (goal === 'speed' && model.speed === 'fast') best = model as any;
-      if (goal === 'quality' && model.speed === 'quality') best = model as any;
+      if (goal === 'speed' && model.speed === 'fast') best = model;
+      if (goal === 'quality' && model.speed === 'quality') best = model;
       if (goal === 'cost' && model.costPer1KTokens < best.costPer1KTokens) best = model;
     }
 
