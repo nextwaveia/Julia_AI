@@ -1,6 +1,6 @@
 {
   "name": "julia-ai",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "Julia 3.0 - AI Orchestrator with RTK compression, Auto-DAG parallelism, and 84% token economy",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -66,7 +66,7 @@
     "typescript": "^5.2.2"
   },
   "julia": {
-    "version": "3.0.0",
+    "version": "3.0.1",
     "features": {
       "auto-interpreter": true,
       "compressed-ail": true,
